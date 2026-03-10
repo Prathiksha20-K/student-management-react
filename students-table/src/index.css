@@ -1,0 +1,78 @@
+body{
+font-family: Arial;
+background:#f5f7fb;
+}
+
+.container{
+width:450px;
+margin:auto;
+margin-top:50px;
+background:rgb(215, 240, 248);
+padding:30px;
+border-radius:8px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.form{
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+input{
+padding:8px;
+border:1px solid #d8f3f3;
+border-radius:5px;
+}
+
+.add-btn{
+background:#244d69;
+color:white;
+border:none;
+padding:10px;
+border-radius:5px;
+cursor:pointer;
+}
+
+.download-btn{
+background:#151c9f;
+color:white;
+border:none;
+padding:8px 15px;
+border-radius:5px;
+cursor:pointer;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+th,td{
+border:1px solid #ddd;
+padding:8px;
+}
+
+th{
+background:#cad9f7;
+}
+
+.edit-btn{
+background:#06c4be;
+border:none;
+padding:5px 10px;
+color:white;
+margin-right:5px;
+border-radius:4px;
+cursor:pointer;
+}
+
+.delete-btn{
+background:#ef4444;
+border:none;
+padding:5px 10px;
+color:white;
+border-radius:4px;
+cursor:pointer;
+}
